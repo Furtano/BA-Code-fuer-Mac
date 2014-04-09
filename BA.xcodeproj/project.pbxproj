@@ -7,27 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8340B59818F42AAA0006397D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8340B59718F42AAA0006397D /* main.cpp */; };
-		8340B59A18F42AAA0006397D /* BA.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8340B59918F42AAA0006397D /* BA.1 */; };
+		83073C2518F55D7200DE7772 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83073C1F18F55D7200DE7772 /* sfml-audio.framework */; };
+		83073C2618F55D7200DE7772 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83073C2018F55D7200DE7772 /* sfml-graphics.framework */; };
+		83073C2718F55D7200DE7772 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83073C2118F55D7200DE7772 /* sfml-network.framework */; };
+		83073C2818F55D7200DE7772 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83073C2218F55D7200DE7772 /* sfml-system.framework */; };
+		83073C2918F55D7200DE7772 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83073C2318F55D7200DE7772 /* sfml-window.framework */; };
+		83073C2A18F55D7200DE7772 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83073C2418F55D7200DE7772 /* SFML.framework */; };
+		83320A7018F47838003DE95E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83320A6F18F47838003DE95E /* OpenGL.framework */; };
+		83DEF7EA18F42C7D00D31667 /* Ant.cl in Sources */ = {isa = PBXBuildFile; fileRef = 83DEF7C618F42C7D00D31667 /* Ant.cl */; };
+		83DEF7EB18F42C7D00D31667 /* Area.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DEF7C718F42C7D00D31667 /* Area.cpp */; };
+		83DEF7EC18F42C7D00D31667 /* Bachelorarbeit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DEF7C918F42C7D00D31667 /* Bachelorarbeit.cpp */; };
+		83DEF7ED18F42C7D00D31667 /* Behavior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DEF7CA18F42C7D00D31667 /* Behavior.cpp */; };
+		83DEF7EE18F42C7D00D31667 /* Breed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DEF7CC18F42C7D00D31667 /* Breed.cpp */; };
+		83DEF7EF18F42C7D00D31667 /* clInitFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DEF7CE18F42C7D00D31667 /* clInitFunctions.cpp */; };
+		83DEF7F018F42C7D00D31667 /* Drawer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DEF7D118F42C7D00D31667 /* Drawer.cpp */; };
+		83DEF7F118F42C7D00D31667 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DEF7D418F42C7D00D31667 /* Enemy.cpp */; };
+		83DEF7F218F42C7D00D31667 /* Food.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DEF7D618F42C7D00D31667 /* Food.cpp */; };
+		83DEF7F318F42C7D00D31667 /* Helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DEF7DA18F42C7D00D31667 /* Helper.cpp */; };
+		83DEF7F518F42C7D00D31667 /* Obstacle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DEF7DF18F42C7D00D31667 /* Obstacle.cpp */; };
+		83DEF7F718F42C7D00D31667 /* Pheromon.cl in Sources */ = {isa = PBXBuildFile; fileRef = 83DEF7E318F42C7D00D31667 /* Pheromon.cl */; };
+		83DEF7F818F42C7D00D31667 /* Simulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DEF7E518F42C7D00D31667 /* Simulation.cpp */; };
+		83DEF7F918F42C7D00D31667 /* Stats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DEF7E718F42C7D00D31667 /* Stats.cpp */; };
+		83DEF7FA18F42C7D00D31667 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DEF7E918F42C7D00D31667 /* Test.cpp */; };
+		83DEF7FC18F42CFD00D31667 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DEF7FB18F42CFD00D31667 /* OpenCL.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		8349247A18F4334F00A766A3 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXCopyFilesBuildPhase section */
+		831ABD5418F4A601000C332F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8340B59218F42AAA0006397D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
-				8340B59A18F42AAA0006397D /* BA.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		83073C1F18F55D7200DE7772 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../../sf/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
+		83073C2018F55D7200DE7772 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../../sf/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+		83073C2118F55D7200DE7772 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../../sf/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
+		83073C2218F55D7200DE7772 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../../sf/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		83073C2318F55D7200DE7772 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "../../../sf/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
+		83073C2418F55D7200DE7772 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = ../../../sf/Frameworks/SFML.framework; sourceTree = "<group>"; };
+		83320A6F18F47838003DE95E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		8340B59418F42AAA0006397D /* BA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BA; sourceTree = BUILT_PRODUCTS_DIR; };
-		8340B59718F42AAA0006397D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		8340B59918F42AAA0006397D /* BA.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BA.1; sourceTree = "<group>"; };
+		83DEF7C618F42C7D00D31667 /* Ant.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = Ant.cl; sourceTree = "<group>"; };
+		83DEF7C718F42C7D00D31667 /* Area.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Area.cpp; sourceTree = "<group>"; };
+		83DEF7C818F42C7D00D31667 /* Area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
+		83DEF7C918F42C7D00D31667 /* Bachelorarbeit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bachelorarbeit.cpp; sourceTree = "<group>"; };
+		83DEF7CA18F42C7D00D31667 /* Behavior.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Behavior.cpp; sourceTree = "<group>"; };
+		83DEF7CB18F42C7D00D31667 /* Behavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Behavior.h; sourceTree = "<group>"; };
+		83DEF7CC18F42C7D00D31667 /* Breed.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Breed.cpp; sourceTree = "<group>"; };
+		83DEF7CD18F42C7D00D31667 /* Breed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Breed.h; sourceTree = "<group>"; };
+		83DEF7CE18F42C7D00D31667 /* clInitFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clInitFunctions.cpp; sourceTree = "<group>"; };
+		83DEF7CF18F42C7D00D31667 /* clInitFunctions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = clInitFunctions.hpp; sourceTree = "<group>"; };
+		83DEF7D018F42C7D00D31667 /* coolvetica.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = coolvetica.ttf; sourceTree = "<group>"; };
+		83DEF7D118F42C7D00D31667 /* Drawer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Drawer.cpp; sourceTree = "<group>"; };
+		83DEF7D218F42C7D00D31667 /* Drawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawer.h; sourceTree = "<group>"; };
+		83DEF7D318F42C7D00D31667 /* Egg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Egg.h; sourceTree = "<group>"; };
+		83DEF7D418F42C7D00D31667 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		83DEF7D518F42C7D00D31667 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		83DEF7D618F42C7D00D31667 /* Food.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Food.cpp; sourceTree = "<group>"; };
+		83DEF7D718F42C7D00D31667 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		83DEF7D818F42C7D00D31667 /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		83DEF7D918F42C7D00D31667 /* Grub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grub.h; sourceTree = "<group>"; };
+		83DEF7DA18F42C7D00D31667 /* Helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Helper.cpp; sourceTree = "<group>"; };
+		83DEF7DB18F42C7D00D31667 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		83DEF7DC18F42C7D00D31667 /* Imago.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imago.h; sourceTree = "<group>"; };
+		83DEF7DF18F42C7D00D31667 /* Obstacle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Obstacle.cpp; sourceTree = "<group>"; };
+		83DEF7E018F42C7D00D31667 /* Obstacle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Obstacle.h; sourceTree = "<group>"; };
+		83DEF7E318F42C7D00D31667 /* Pheromon.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = Pheromon.cl; sourceTree = "<group>"; };
+		83DEF7E418F42C7D00D31667 /* Puppet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Puppet.h; sourceTree = "<group>"; };
+		83DEF7E518F42C7D00D31667 /* Simulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Simulation.cpp; sourceTree = "<group>"; };
+		83DEF7E618F42C7D00D31667 /* Simulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simulation.h; sourceTree = "<group>"; };
+		83DEF7E718F42C7D00D31667 /* Stats.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stats.cpp; sourceTree = "<group>"; };
+		83DEF7E818F42C7D00D31667 /* Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stats.h; sourceTree = "<group>"; };
+		83DEF7E918F42C7D00D31667 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		83DEF7FB18F42CFD00D31667 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +113,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83073C2518F55D7200DE7772 /* sfml-audio.framework in Frameworks */,
+				83073C2618F55D7200DE7772 /* sfml-graphics.framework in Frameworks */,
+				83073C2718F55D7200DE7772 /* sfml-network.framework in Frameworks */,
+				83073C2818F55D7200DE7772 /* sfml-system.framework in Frameworks */,
+				83073C2918F55D7200DE7772 /* sfml-window.framework in Frameworks */,
+				83073C2A18F55D7200DE7772 /* SFML.framework in Frameworks */,
+				83320A7018F47838003DE95E /* OpenGL.framework in Frameworks */,
+				83DEF7FC18F42CFD00D31667 /* OpenCL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +130,14 @@
 		8340B58B18F42AAA0006397D = {
 			isa = PBXGroup;
 			children = (
+				83073C1F18F55D7200DE7772 /* sfml-audio.framework */,
+				83073C2018F55D7200DE7772 /* sfml-graphics.framework */,
+				83073C2118F55D7200DE7772 /* sfml-network.framework */,
+				83073C2218F55D7200DE7772 /* sfml-system.framework */,
+				83073C2318F55D7200DE7772 /* sfml-window.framework */,
+				83073C2418F55D7200DE7772 /* SFML.framework */,
+				83320A6F18F47838003DE95E /* OpenGL.framework */,
+				83DEF7FB18F42CFD00D31667 /* OpenCL.framework */,
 				8340B59618F42AAA0006397D /* BA */,
 				8340B59518F42AAA0006397D /* Products */,
 			);
@@ -60,8 +154,38 @@
 		8340B59618F42AAA0006397D /* BA */ = {
 			isa = PBXGroup;
 			children = (
-				8340B59718F42AAA0006397D /* main.cpp */,
-				8340B59918F42AAA0006397D /* BA.1 */,
+				83DEF7C618F42C7D00D31667 /* Ant.cl */,
+				83DEF7C718F42C7D00D31667 /* Area.cpp */,
+				83DEF7C818F42C7D00D31667 /* Area.h */,
+				83DEF7C918F42C7D00D31667 /* Bachelorarbeit.cpp */,
+				83DEF7CA18F42C7D00D31667 /* Behavior.cpp */,
+				83DEF7CB18F42C7D00D31667 /* Behavior.h */,
+				83DEF7CC18F42C7D00D31667 /* Breed.cpp */,
+				83DEF7CD18F42C7D00D31667 /* Breed.h */,
+				83DEF7CE18F42C7D00D31667 /* clInitFunctions.cpp */,
+				83DEF7CF18F42C7D00D31667 /* clInitFunctions.hpp */,
+				83DEF7D018F42C7D00D31667 /* coolvetica.ttf */,
+				83DEF7D118F42C7D00D31667 /* Drawer.cpp */,
+				83DEF7D218F42C7D00D31667 /* Drawer.h */,
+				83DEF7D318F42C7D00D31667 /* Egg.h */,
+				83DEF7D418F42C7D00D31667 /* Enemy.cpp */,
+				83DEF7D518F42C7D00D31667 /* Enemy.h */,
+				83DEF7D618F42C7D00D31667 /* Food.cpp */,
+				83DEF7D718F42C7D00D31667 /* Food.h */,
+				83DEF7D818F42C7D00D31667 /* Globals.h */,
+				83DEF7D918F42C7D00D31667 /* Grub.h */,
+				83DEF7DA18F42C7D00D31667 /* Helper.cpp */,
+				83DEF7DB18F42C7D00D31667 /* Helper.h */,
+				83DEF7DC18F42C7D00D31667 /* Imago.h */,
+				83DEF7DF18F42C7D00D31667 /* Obstacle.cpp */,
+				83DEF7E018F42C7D00D31667 /* Obstacle.h */,
+				83DEF7E318F42C7D00D31667 /* Pheromon.cl */,
+				83DEF7E418F42C7D00D31667 /* Puppet.h */,
+				83DEF7E518F42C7D00D31667 /* Simulation.cpp */,
+				83DEF7E618F42C7D00D31667 /* Simulation.h */,
+				83DEF7E718F42C7D00D31667 /* Stats.cpp */,
+				83DEF7E818F42C7D00D31667 /* Stats.h */,
+				83DEF7E918F42C7D00D31667 /* Test.cpp */,
 			);
 			path = BA;
 			sourceTree = "<group>";
@@ -76,8 +200,10 @@
 				8340B59018F42AAA0006397D /* Sources */,
 				8340B59118F42AAA0006397D /* Frameworks */,
 				8340B59218F42AAA0006397D /* CopyFiles */,
+				831ABD5418F4A601000C332F /* CopyFiles */,
 			);
 			buildRules = (
+				8349247A18F4334F00A766A3 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -117,7 +243,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8340B59818F42AAA0006397D /* main.cpp in Sources */,
+				83DEF7F218F42C7D00D31667 /* Food.cpp in Sources */,
+				83DEF7F118F42C7D00D31667 /* Enemy.cpp in Sources */,
+				83DEF7F518F42C7D00D31667 /* Obstacle.cpp in Sources */,
+				83DEF7EB18F42C7D00D31667 /* Area.cpp in Sources */,
+				83DEF7ED18F42C7D00D31667 /* Behavior.cpp in Sources */,
+				83DEF7F818F42C7D00D31667 /* Simulation.cpp in Sources */,
+				83DEF7F718F42C7D00D31667 /* Pheromon.cl in Sources */,
+				83DEF7EF18F42C7D00D31667 /* clInitFunctions.cpp in Sources */,
+				83DEF7FA18F42C7D00D31667 /* Test.cpp in Sources */,
+				83DEF7F918F42C7D00D31667 /* Stats.cpp in Sources */,
+				83DEF7F318F42C7D00D31667 /* Helper.cpp in Sources */,
+				83DEF7EC18F42C7D00D31667 /* Bachelorarbeit.cpp in Sources */,
+				83DEF7F018F42C7D00D31667 /* Drawer.cpp in Sources */,
+				83DEF7EE18F42C7D00D31667 /* Breed.cpp in Sources */,
+				83DEF7EA18F42C7D00D31667 /* Ant.cl in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +297,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -190,6 +330,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -197,14 +338,70 @@
 		8340B59E18F42AAA0006397D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"/usr/include/**",
+					"/Users/chris/Desktop/SFML/lib/**",
+					"/Library/Frameworks/**",
+					"/usr/local/lib/**",
+					/Users/chris/Desktop/SFML/extlibs,
+					/Users/chris/Desktop/sf/Frameworks,
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/include/**",
+					/usr/local/include,
+					"/usr/local/include/SFML/**",
+				);
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SFML,
+				);
+				PRELINK_LIBS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include/** /usr/include/**";
 			};
 			name = Debug;
 		};
 		8340B59F18F42AAA0006397D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"/usr/include/**",
+					"/Users/chris/Desktop/SFML/lib/**",
+					"/Library/Frameworks/**",
+					"/usr/local/lib/**",
+					/Users/chris/Desktop/SFML/extlibs,
+					/Users/chris/Desktop/sf/Frameworks,
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/include/**",
+					/usr/local/include,
+					"/usr/local/include/SFML/**",
+				);
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SFML,
+				);
+				PRELINK_LIBS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include/** /usr/include/**";
 			};
 			name = Release;
 		};
@@ -227,6 +424,7 @@
 				8340B59F18F42AAA0006397D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
